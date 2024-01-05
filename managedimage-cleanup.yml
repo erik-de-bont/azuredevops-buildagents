@@ -22,7 +22,7 @@ schedules:
 trigger: none
 
 pool:
-  vmImage: 'Host Pool - Image'
+  name: 'Host Pool - Image'
 
 variables:
 - group: ${{ parameters.variable_group_name }}
