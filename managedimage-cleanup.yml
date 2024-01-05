@@ -21,9 +21,6 @@ schedules:
 
 trigger: none
 
-pool:
-  name: 'Host Pool - Image'
-
 variables:
 - group: ${{ parameters.variable_group_name }}
 
