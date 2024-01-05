@@ -2,7 +2,7 @@ parameters:
   - name: image_type
     displayName: Build Agent Image
     type: string
-    default: windows2019
+    default: windows2022
     values:
       - windows2019
       - windows2022
@@ -12,11 +12,11 @@ parameters:
     displayName: Agent Pool
     type: object
     default:
-      name: 'ci-agent-pool'
+      name: 'Host Pool - Image'
   - name: variable_group_name
     displayName: Variable Group
     type: string
-    default: 'Image Generation Variables'
+    default: 'BuildAgents'
   - name: runner_images_version
     displayName: Runner-Images Version
     type: string

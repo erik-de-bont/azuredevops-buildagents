@@ -6,7 +6,7 @@ parameters:
 - name: agent_pool
   displayName: Agent Pool
   type: string
-  default: CI Windows2019
+  default: 'Host Pool - Image'
 - name: repository_base_path
   displayName: Scripts Path
   type: string
