@@ -33,4 +33,4 @@ stages:
     variable_group_name: ${{ parameters.variable_group_name }}
     delete_type: ${{ parameters.delete_type }}
     gallery_images_to_keep: 3
-    agent_pool: 'Azure Pipelines'
+    agent_pool: 'Host Pool - Image'
